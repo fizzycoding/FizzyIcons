@@ -1,0 +1,45 @@
+{
+  "name": "chart-bar",
+  "title": "Bar Chart",
+  "category": "Media",
+  "tags": [
+    "stats",
+    "analytics",
+    "graph",
+    "data"
+  ],
+  "keywords": [
+    "metrics",
+    "dashboard",
+    "report"
+  ],
+  "addedInVersion": "1.0.0",
+  "author": "FizzyIcons Team",
+  "relatedIcons": [
+    "database",
+    "monitor"
+  ],
+  "description": "Bar chart graph icon for business metrics.",
+  "variants": [
+    "outline",
+    "solid",
+    "colored"
+  ],
+  "colorSlots": [
+    {
+      "slot": 1,
+      "name": "Bar 1",
+      "defaultColor": "#3B82F6"
+    },
+    {
+      "slot": 2,
+      "name": "Bar 2",
+      "defaultColor": "#10B981"
+    },
+    {
+      "slot": 3,
+      "name": "Bar 3",
+      "defaultColor": "#F59E0B"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "heart",
+  "title": "Heart",
+  "category": "Interface",
+  "tags": [
+    "love",
+    "like",
+    "favorite",
+    "wishlist"
+  ],
+  "keywords": [
+    "save",
+    "bookmark",
+    "react"
+  ],
+  "addedInVersion": "1.0.0",
+  "author": "FizzyIcons Team",
+  "relatedIcons": [
+    "star",
+    "user"
+  ],
+  "description": "Heart icon for likes, favorites, and wishlist features.",
+  "variants": [
+    "outline",
+    "solid",
+    "colored"
+  ],
+  "colorSlots": [
+    {
+      "slot": 1,
+      "name": "Heart Fill",
+      "defaultColor": "#EF4444"
+    },
+    {
+      "slot": 2,
+      "name": "Sparkle Accent",
+      "defaultColor": "#FFDE59"
+    }
+  ]
+}

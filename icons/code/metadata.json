@@ -1,0 +1,40 @@
+{
+  "name": "code",
+  "title": "Code Brackets",
+  "category": "Development",
+  "tags": [
+    "brackets",
+    "developer",
+    "html",
+    "script"
+  ],
+  "keywords": [
+    "programming",
+    "source",
+    "coding"
+  ],
+  "addedInVersion": "1.0.0",
+  "author": "FizzyIcons Team",
+  "relatedIcons": [
+    "monitor",
+    "database"
+  ],
+  "description": "Code angle brackets icon for development tools.",
+  "variants": [
+    "outline",
+    "solid",
+    "colored"
+  ],
+  "colorSlots": [
+    {
+      "slot": 1,
+      "name": "Left Bracket",
+      "defaultColor": "#EC4899"
+    },
+    {
+      "slot": 2,
+      "name": "Right Bracket",
+      "defaultColor": "#8B5CF6"
+    }
+  ]
+}

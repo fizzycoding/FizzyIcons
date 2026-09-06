@@ -1,0 +1,40 @@
+{
+  "name": "search",
+  "title": "Search",
+  "category": "Interface",
+  "tags": [
+    "magnifier",
+    "find",
+    "zoom",
+    "explore"
+  ],
+  "keywords": [
+    "query",
+    "filter",
+    "lookup"
+  ],
+  "addedInVersion": "1.0.0",
+  "author": "FizzyIcons Team",
+  "relatedIcons": [
+    "filter",
+    "file"
+  ],
+  "description": "A search magnifying lens for querying content.",
+  "variants": [
+    "outline",
+    "solid",
+    "colored"
+  ],
+  "colorSlots": [
+    {
+      "slot": 1,
+      "name": "Lens Fill",
+      "defaultColor": "#60A5FA"
+    },
+    {
+      "slot": 2,
+      "name": "Handle & Ring",
+      "defaultColor": "#18181B"
+    }
+  ]
+}

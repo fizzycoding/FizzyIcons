@@ -1,0 +1,40 @@
+{
+  "name": "settings",
+  "title": "Settings",
+  "category": "Interface",
+  "tags": [
+    "gear",
+    "options",
+    "cog",
+    "preferences"
+  ],
+  "keywords": [
+    "config",
+    "admin",
+    "setup"
+  ],
+  "addedInVersion": "1.0.0",
+  "author": "FizzyIcons Team",
+  "relatedIcons": [
+    "edit",
+    "user"
+  ],
+  "description": "System gear icon for settings and preferences.",
+  "variants": [
+    "outline",
+    "solid",
+    "colored"
+  ],
+  "colorSlots": [
+    {
+      "slot": 1,
+      "name": "Gear Ring",
+      "defaultColor": "#10B981"
+    },
+    {
+      "slot": 2,
+      "name": "Center Hole",
+      "defaultColor": "#FFDE59"
+    }
+  ]
+}

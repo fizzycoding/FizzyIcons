@@ -1,0 +1,624 @@
+import type { IconMeta } from "./types";
+
+export const iconRegistry: Record<string, IconMeta> = {
+  "arrow-right": {
+    "name": "arrow-right",
+    "title": "Arrow Right",
+    "category": "Arrows",
+    "tags": [
+      "forward",
+      "next",
+      "direction",
+      "pointer"
+    ],
+    "keywords": [
+      "navigate",
+      "proceed",
+      "right"
+    ],
+    "addedInVersion": "1.0.0",
+    "author": "FizzyIcons Team",
+    "relatedIcons": [
+      "send",
+      "check"
+    ],
+    "description": "Forward arrow right navigation icon.",
+    "variants": [
+      "outline",
+      "solid",
+      "colored"
+    ],
+    "colorSlots": [
+      {
+        "slot": 1,
+        "name": "Arrow Stem",
+        "defaultColor": "#18181B"
+      }
+    ]
+  },
+  "bell": {
+    "name": "bell",
+    "title": "Notification Bell",
+    "category": "Communication",
+    "tags": [
+      "alert",
+      "notification",
+      "ring",
+      "reminder"
+    ],
+    "keywords": [
+      "push",
+      "inbox",
+      "badge"
+    ],
+    "addedInVersion": "1.0.0",
+    "author": "FizzyIcons Team",
+    "relatedIcons": [
+      "mail",
+      "message"
+    ],
+    "description": "Ringing notification bell icon for alerts.",
+    "variants": [
+      "outline",
+      "solid",
+      "colored"
+    ],
+    "colorSlots": [
+      {
+        "slot": 1,
+        "name": "Bell Body",
+        "defaultColor": "#F59E0B"
+      },
+      {
+        "slot": 2,
+        "name": "Clapper",
+        "defaultColor": "#18181B"
+      },
+      {
+        "slot": 3,
+        "name": "Dot Alert",
+        "defaultColor": "#EF4444"
+      }
+    ]
+  },
+  "chart-bar": {
+    "name": "chart-bar",
+    "title": "Bar Chart",
+    "category": "Media",
+    "tags": [
+      "stats",
+      "analytics",
+      "graph",
+      "data"
+    ],
+    "keywords": [
+      "metrics",
+      "dashboard",
+      "report"
+    ],
+    "addedInVersion": "1.0.0",
+    "author": "FizzyIcons Team",
+    "relatedIcons": [
+      "database",
+      "monitor"
+    ],
+    "description": "Bar chart graph icon for business metrics.",
+    "variants": [
+      "outline",
+      "solid",
+      "colored"
+    ],
+    "colorSlots": [
+      {
+        "slot": 1,
+        "name": "Bar 1",
+        "defaultColor": "#3B82F6"
+      },
+      {
+        "slot": 2,
+        "name": "Bar 2",
+        "defaultColor": "#10B981"
+      },
+      {
+        "slot": 3,
+        "name": "Bar 3",
+        "defaultColor": "#F59E0B"
+      }
+    ]
+  },
+  "check": {
+    "name": "check",
+    "title": "Checkmark",
+    "category": "Interface",
+    "tags": [
+      "tick",
+      "success",
+      "done",
+      "confirm"
+    ],
+    "keywords": [
+      "ok",
+      "complete",
+      "valid"
+    ],
+    "addedInVersion": "1.0.0",
+    "author": "FizzyIcons Team",
+    "relatedIcons": [
+      "arrow-right",
+      "shield"
+    ],
+    "description": "Success checkmark tick icon.",
+    "variants": [
+      "outline",
+      "solid",
+      "colored"
+    ],
+    "colorSlots": [
+      {
+        "slot": 1,
+        "name": "Check Color",
+        "defaultColor": "#10B981"
+      }
+    ]
+  },
+  "code": {
+    "name": "code",
+    "title": "Code Brackets",
+    "category": "Development",
+    "tags": [
+      "brackets",
+      "developer",
+      "html",
+      "script"
+    ],
+    "keywords": [
+      "programming",
+      "source",
+      "coding"
+    ],
+    "addedInVersion": "1.0.0",
+    "author": "FizzyIcons Team",
+    "relatedIcons": [
+      "monitor",
+      "database"
+    ],
+    "description": "Code angle brackets icon for development tools.",
+    "variants": [
+      "outline",
+      "solid",
+      "colored"
+    ],
+    "colorSlots": [
+      {
+        "slot": 1,
+        "name": "Left Bracket",
+        "defaultColor": "#EC4899"
+      },
+      {
+        "slot": 2,
+        "name": "Right Bracket",
+        "defaultColor": "#8B5CF6"
+      }
+    ]
+  },
+  "database": {
+    "name": "database",
+    "title": "Database Stack",
+    "category": "Development",
+    "tags": [
+      "storage",
+      "sql",
+      "server",
+      "data"
+    ],
+    "keywords": [
+      "db",
+      "postgres",
+      "redis"
+    ],
+    "addedInVersion": "1.0.0",
+    "author": "FizzyIcons Team",
+    "relatedIcons": [
+      "monitor",
+      "code"
+    ],
+    "description": "Database stack server disk icon.",
+    "variants": [
+      "outline",
+      "solid",
+      "colored"
+    ],
+    "colorSlots": [
+      {
+        "slot": 1,
+        "name": "Top Disk",
+        "defaultColor": "#10B981"
+      },
+      {
+        "slot": 2,
+        "name": "Mid Disk",
+        "defaultColor": "#3B82F6"
+      },
+      {
+        "slot": 3,
+        "name": "Base Disk",
+        "defaultColor": "#6366F1"
+      }
+    ]
+  },
+  "folder": {
+    "name": "folder",
+    "title": "Folder",
+    "category": "Files",
+    "tags": [
+      "directory",
+      "file",
+      "storage",
+      "archive"
+    ],
+    "keywords": [
+      "document",
+      "collection"
+    ],
+    "addedInVersion": "1.0.0",
+    "author": "FizzyIcons Team",
+    "relatedIcons": [
+      "file",
+      "database"
+    ],
+    "description": "File directory storage folder icon.",
+    "variants": [
+      "outline",
+      "solid",
+      "colored"
+    ],
+    "colorSlots": [
+      {
+        "slot": 1,
+        "name": "Folder Base",
+        "defaultColor": "#FBBF24"
+      },
+      {
+        "slot": 2,
+        "name": "Tab & Accent",
+        "defaultColor": "#D97706"
+      }
+    ]
+  },
+  "heart": {
+    "name": "heart",
+    "title": "Heart",
+    "category": "Interface",
+    "tags": [
+      "love",
+      "like",
+      "favorite",
+      "wishlist"
+    ],
+    "keywords": [
+      "save",
+      "bookmark",
+      "react"
+    ],
+    "addedInVersion": "1.0.0",
+    "author": "FizzyIcons Team",
+    "relatedIcons": [
+      "star",
+      "user"
+    ],
+    "description": "Heart icon for likes, favorites, and wishlist features.",
+    "variants": [
+      "outline",
+      "solid",
+      "colored"
+    ],
+    "colorSlots": [
+      {
+        "slot": 1,
+        "name": "Heart Fill",
+        "defaultColor": "#EF4444"
+      },
+      {
+        "slot": 2,
+        "name": "Sparkle Accent",
+        "defaultColor": "#FFDE59"
+      }
+    ]
+  },
+  "home": {
+    "name": "home",
+    "title": "Home",
+    "category": "Interface",
+    "tags": [
+      "house",
+      "main",
+      "dashboard",
+      "building"
+    ],
+    "keywords": [
+      "homepage",
+      "start",
+      "landing",
+      "root"
+    ],
+    "addedInVersion": "1.0.0",
+    "author": "FizzyIcons Team",
+    "relatedIcons": [
+      "dashboard",
+      "user",
+      "settings"
+    ],
+    "description": "A home icon, commonly used for main navigation and dashboards.",
+    "variants": [
+      "outline",
+      "solid",
+      "colored"
+    ],
+    "colorSlots": [
+      {
+        "slot": 1,
+        "name": "Roof & Accent",
+        "defaultColor": "#FFDE59"
+      },
+      {
+        "slot": 2,
+        "name": "Walls & Base",
+        "defaultColor": "#3B82F6"
+      },
+      {
+        "slot": 3,
+        "name": "Door & Detail",
+        "defaultColor": "#18181B"
+      }
+    ]
+  },
+  "monitor": {
+    "name": "monitor",
+    "title": "Monitor Screen",
+    "category": "Devices",
+    "tags": [
+      "desktop",
+      "computer",
+      "display",
+      "screen"
+    ],
+    "keywords": [
+      "device",
+      "tv",
+      "hardware"
+    ],
+    "addedInVersion": "1.0.0",
+    "author": "FizzyIcons Team",
+    "relatedIcons": [
+      "code",
+      "database"
+    ],
+    "description": "Computer monitor desktop display icon.",
+    "variants": [
+      "outline",
+      "solid",
+      "colored"
+    ],
+    "colorSlots": [
+      {
+        "slot": 1,
+        "name": "Screen Display",
+        "defaultColor": "#0EA5E9"
+      },
+      {
+        "slot": 2,
+        "name": "Stand & Frame",
+        "defaultColor": "#18181B"
+      }
+    ]
+  },
+  "search": {
+    "name": "search",
+    "title": "Search",
+    "category": "Interface",
+    "tags": [
+      "magnifier",
+      "find",
+      "zoom",
+      "explore"
+    ],
+    "keywords": [
+      "query",
+      "filter",
+      "lookup"
+    ],
+    "addedInVersion": "1.0.0",
+    "author": "FizzyIcons Team",
+    "relatedIcons": [
+      "filter",
+      "file"
+    ],
+    "description": "A search magnifying lens for querying content.",
+    "variants": [
+      "outline",
+      "solid",
+      "colored"
+    ],
+    "colorSlots": [
+      {
+        "slot": 1,
+        "name": "Lens Fill",
+        "defaultColor": "#60A5FA"
+      },
+      {
+        "slot": 2,
+        "name": "Handle & Ring",
+        "defaultColor": "#18181B"
+      }
+    ]
+  },
+  "send": {
+    "name": "send",
+    "title": "Send Paper Plane",
+    "category": "Communication",
+    "tags": [
+      "paperplane",
+      "mail",
+      "message",
+      "submit"
+    ],
+    "keywords": [
+      "post",
+      "share",
+      "dispatch"
+    ],
+    "addedInVersion": "1.0.0",
+    "author": "FizzyIcons Team",
+    "relatedIcons": [
+      "mail",
+      "arrow-right"
+    ],
+    "description": "Flying paper plane icon for messaging and submission.",
+    "variants": [
+      "outline",
+      "solid",
+      "colored"
+    ],
+    "colorSlots": [
+      {
+        "slot": 1,
+        "name": "Wing Top",
+        "defaultColor": "#6366F1"
+      },
+      {
+        "slot": 2,
+        "name": "Wing Under",
+        "defaultColor": "#4338CA"
+      }
+    ]
+  },
+  "settings": {
+    "name": "settings",
+    "title": "Settings",
+    "category": "Interface",
+    "tags": [
+      "gear",
+      "options",
+      "cog",
+      "preferences"
+    ],
+    "keywords": [
+      "config",
+      "admin",
+      "setup"
+    ],
+    "addedInVersion": "1.0.0",
+    "author": "FizzyIcons Team",
+    "relatedIcons": [
+      "edit",
+      "user"
+    ],
+    "description": "System gear icon for settings and preferences.",
+    "variants": [
+      "outline",
+      "solid",
+      "colored"
+    ],
+    "colorSlots": [
+      {
+        "slot": 1,
+        "name": "Gear Ring",
+        "defaultColor": "#10B981"
+      },
+      {
+        "slot": 2,
+        "name": "Center Hole",
+        "defaultColor": "#FFDE59"
+      }
+    ]
+  },
+  "user": {
+    "name": "user",
+    "title": "User Profile",
+    "category": "Users",
+    "tags": [
+      "account",
+      "person",
+      "avatar",
+      "member"
+    ],
+    "keywords": [
+      "profile",
+      "login",
+      "auth"
+    ],
+    "addedInVersion": "1.0.0",
+    "author": "FizzyIcons Team",
+    "relatedIcons": [
+      "users",
+      "lock",
+      "settings"
+    ],
+    "description": "User avatar profile component icon.",
+    "variants": [
+      "outline",
+      "solid",
+      "colored"
+    ],
+    "colorSlots": [
+      {
+        "slot": 1,
+        "name": "Avatar Body",
+        "defaultColor": "#F43F5E"
+      },
+      {
+        "slot": 2,
+        "name": "Head Accent",
+        "defaultColor": "#FFDE59"
+      }
+    ]
+  },
+  "zap": {
+    "name": "zap",
+    "title": "Lightning Bolt",
+    "category": "Interface",
+    "tags": [
+      "energy",
+      "flash",
+      "power",
+      "fast"
+    ],
+    "keywords": [
+      "lightning",
+      "quick",
+      "boost"
+    ],
+    "addedInVersion": "1.0.0",
+    "author": "FizzyIcons Team",
+    "relatedIcons": [
+      "star",
+      "sun"
+    ],
+    "description": "Fast lightning bolt energy icon.",
+    "variants": [
+      "outline",
+      "solid",
+      "colored"
+    ],
+    "colorSlots": [
+      {
+        "slot": 1,
+        "name": "Bolt Primary",
+        "defaultColor": "#FBBF24"
+      },
+      {
+        "slot": 2,
+        "name": "Spark Shadow",
+        "defaultColor": "#D97706"
+      }
+    ]
+  }
+};
+
+export function getIcon(name: string): IconMeta | undefined {
+  return iconRegistry[name];
+}
+
+export function getAllIcons(): IconMeta[] {
+  return Object.values(iconRegistry);
+}

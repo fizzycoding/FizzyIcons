@@ -1,0 +1,35 @@
+{
+  "name": "check",
+  "title": "Checkmark",
+  "category": "Interface",
+  "tags": [
+    "tick",
+    "success",
+    "done",
+    "confirm"
+  ],
+  "keywords": [
+    "ok",
+    "complete",
+    "valid"
+  ],
+  "addedInVersion": "1.0.0",
+  "author": "FizzyIcons Team",
+  "relatedIcons": [
+    "arrow-right",
+    "shield"
+  ],
+  "description": "Success checkmark tick icon.",
+  "variants": [
+    "outline",
+    "solid",
+    "colored"
+  ],
+  "colorSlots": [
+    {
+      "slot": 1,
+      "name": "Check Color",
+      "defaultColor": "#10B981"
+    }
+  ]
+}

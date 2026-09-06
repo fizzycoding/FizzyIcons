@@ -1,0 +1,47 @@
+{
+  "name": "home",
+  "title": "Home",
+  "category": "Interface",
+  "tags": [
+    "house",
+    "main",
+    "dashboard",
+    "building"
+  ],
+  "keywords": [
+    "homepage",
+    "start",
+    "landing",
+    "root"
+  ],
+  "addedInVersion": "1.0.0",
+  "author": "FizzyIcons Team",
+  "relatedIcons": [
+    "dashboard",
+    "user",
+    "settings"
+  ],
+  "description": "A home icon, commonly used for main navigation and dashboards.",
+  "variants": [
+    "outline",
+    "solid",
+    "colored"
+  ],
+  "colorSlots": [
+    {
+      "slot": 1,
+      "name": "Roof & Accent",
+      "defaultColor": "#FFDE59"
+    },
+    {
+      "slot": 2,
+      "name": "Walls & Base",
+      "defaultColor": "#3B82F6"
+    },
+    {
+      "slot": 3,
+      "name": "Door & Detail",
+      "defaultColor": "#18181B"
+    }
+  ]
+}

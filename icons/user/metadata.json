@@ -1,0 +1,41 @@
+{
+  "name": "user",
+  "title": "User Profile",
+  "category": "Users",
+  "tags": [
+    "account",
+    "person",
+    "avatar",
+    "member"
+  ],
+  "keywords": [
+    "profile",
+    "login",
+    "auth"
+  ],
+  "addedInVersion": "1.0.0",
+  "author": "FizzyIcons Team",
+  "relatedIcons": [
+    "users",
+    "lock",
+    "settings"
+  ],
+  "description": "User avatar profile component icon.",
+  "variants": [
+    "outline",
+    "solid",
+    "colored"
+  ],
+  "colorSlots": [
+    {
+      "slot": 1,
+      "name": "Avatar Body",
+      "defaultColor": "#F43F5E"
+    },
+    {
+      "slot": 2,
+      "name": "Head Accent",
+      "defaultColor": "#FFDE59"
+    }
+  ]
+}

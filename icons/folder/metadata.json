@@ -1,0 +1,39 @@
+{
+  "name": "folder",
+  "title": "Folder",
+  "category": "Files",
+  "tags": [
+    "directory",
+    "file",
+    "storage",
+    "archive"
+  ],
+  "keywords": [
+    "document",
+    "collection"
+  ],
+  "addedInVersion": "1.0.0",
+  "author": "FizzyIcons Team",
+  "relatedIcons": [
+    "file",
+    "database"
+  ],
+  "description": "File directory storage folder icon.",
+  "variants": [
+    "outline",
+    "solid",
+    "colored"
+  ],
+  "colorSlots": [
+    {
+      "slot": 1,
+      "name": "Folder Base",
+      "defaultColor": "#FBBF24"
+    },
+    {
+      "slot": 2,
+      "name": "Tab & Accent",
+      "defaultColor": "#D97706"
+    }
+  ]
+}

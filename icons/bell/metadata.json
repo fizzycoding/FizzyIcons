@@ -1,0 +1,45 @@
+{
+  "name": "bell",
+  "title": "Notification Bell",
+  "category": "Communication",
+  "tags": [
+    "alert",
+    "notification",
+    "ring",
+    "reminder"
+  ],
+  "keywords": [
+    "push",
+    "inbox",
+    "badge"
+  ],
+  "addedInVersion": "1.0.0",
+  "author": "FizzyIcons Team",
+  "relatedIcons": [
+    "mail",
+    "message"
+  ],
+  "description": "Ringing notification bell icon for alerts.",
+  "variants": [
+    "outline",
+    "solid",
+    "colored"
+  ],
+  "colorSlots": [
+    {
+      "slot": 1,
+      "name": "Bell Body",
+      "defaultColor": "#F59E0B"
+    },
+    {
+      "slot": 2,
+      "name": "Clapper",
+      "defaultColor": "#18181B"
+    },
+    {
+      "slot": 3,
+      "name": "Dot Alert",
+      "defaultColor": "#EF4444"
+    }
+  ]
+}
