@@ -217,15 +217,15 @@ export default function IconsPage() {
               </p>
             </div>
 
-            {/* Top Cards for Variant & Size */}
-            <div className="flex items-center gap-3">
+            {/* Top Controls for Variant & Size */}
+            <div className="flex items-center gap-4">
               
-              {/* Variant Card */}
-              <div className="bg-white border-2 border-black rounded-2xl px-3.5 py-2 flex items-center gap-3">
-                <span className="text-[11px] font-black uppercase text-gray-800 tracking-wider">
+              {/* Variant Switcher */}
+              <div className="flex items-center gap-2">
+                <span className="text-[11px] font-black uppercase text-gray-500 tracking-wider">
                   VARIANT
                 </span>
-                <div className="flex gap-1 bg-[#F4F4F5] p-1 rounded-xl">
+                <div className="flex gap-1 bg-gray-100/80 p-1 rounded-xl">
                   {(["outline", "solid", "colored"] as const).map((v) => (
                     <button
                       key={v}
@@ -233,8 +233,8 @@ export default function IconsPage() {
                       aria-pressed={selectedVariant === v}
                       className={`px-3.5 py-1 rounded-lg text-xs font-extrabold capitalize transition-all border-2 ${
                         selectedVariant === v
-                          ? "bg-[#FDE047] text-black border-black shadow-2xs"
-                          : "border-transparent text-gray-700 hover:text-black"
+                          ? "bg-[#FEF08A] text-black border-black shadow-2xs"
+                          : "border-transparent text-gray-600 hover:text-black"
                       }`}
                     >
                       {v}
@@ -243,12 +243,12 @@ export default function IconsPage() {
                 </div>
               </div>
 
-              {/* Size Card */}
-              <div className="bg-white border-2 border-black rounded-2xl px-3.5 py-2 flex items-center gap-3">
-                <span className="text-[11px] font-black uppercase text-gray-800 tracking-wider">
+              {/* Size Switcher */}
+              <div className="flex items-center gap-2">
+                <span className="text-[11px] font-black uppercase text-gray-500 tracking-wider">
                   SIZE
                 </span>
-                <div className="flex gap-1 bg-[#F4F4F5] p-1 rounded-xl">
+                <div className="flex gap-1 bg-gray-100/80 p-1 rounded-xl">
                   {(["micro", "small", "normal"] as const).map((sz) => (
                     <button
                       key={sz}
@@ -256,8 +256,8 @@ export default function IconsPage() {
                       aria-pressed={selectedSize === sz}
                       className={`px-3.5 py-1 rounded-lg text-xs font-extrabold capitalize transition-all border-2 ${
                         selectedSize === sz
-                          ? "bg-[#FDE047] text-black border-black shadow-2xs"
-                          : "border-transparent text-gray-700 hover:text-black"
+                          ? "bg-[#FEF08A] text-black border-black shadow-2xs"
+                          : "border-transparent text-gray-600 hover:text-black"
                       }`}
                     >
                       {sz}
@@ -281,8 +281,8 @@ export default function IconsPage() {
                   aria-selected={isSelected}
                   className={`rounded-2xl p-3 flex flex-col items-center justify-center gap-2 cursor-pointer transition-all duration-150 min-h-[90px] border-2 ${
                     isSelected
-                      ? "border-black bg-[#FEF08A] shadow-xs"
-                      : "border-transparent hover:border-gray-200/90 hover:bg-gray-100/40"
+                      ? "border-black bg-[#FEF08A] shadow-2xs font-extrabold"
+                      : "border-transparent hover:bg-gray-100/50"
                   }`}
                 >
                   <Icon

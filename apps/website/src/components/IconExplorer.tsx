@@ -90,20 +90,20 @@ export function IconExplorer() {
               />
             </div>
 
-            {/* Variant Style Switcher (Compulsory 3 styles) */}
-            <div className="bg-white border-2 border-black rounded-2xl px-3.5 py-2 flex items-center gap-3">
-              <span className="text-[11px] font-black uppercase text-gray-800 tracking-wider">
+            {/* Variant Style Switcher */}
+            <div className="flex items-center gap-2">
+              <span className="text-[11px] font-black uppercase text-gray-500 tracking-wider">
                 VARIANT
               </span>
-              <div className="flex gap-1 bg-[#F4F4F5] p-1 rounded-xl">
+              <div className="flex gap-1 bg-gray-100/80 p-1 rounded-xl">
                 {(["outline", "solid", "colored"] as const).map((v) => (
                   <button
                     key={v}
                     onClick={() => setSelectedVariant(v)}
                     className={`px-3.5 py-1 rounded-lg text-xs font-extrabold capitalize transition-all border-2 ${
                       selectedVariant === v
-                        ? "bg-[#FDE047] text-black border-black shadow-2xs"
-                        : "border-transparent text-gray-700 hover:text-black"
+                        ? "bg-[#FEF08A] text-black border-black shadow-2xs"
+                        : "border-transparent text-gray-600 hover:text-black"
                     }`}
                   >
                     {v}
@@ -113,11 +113,11 @@ export function IconExplorer() {
             </div>
 
             {/* Size Token Switcher */}
-            <div className="bg-white border-2 border-black rounded-2xl px-3.5 py-2 flex items-center gap-3">
-              <span className="text-[11px] font-black uppercase text-gray-800 tracking-wider">
+            <div className="flex items-center gap-2">
+              <span className="text-[11px] font-black uppercase text-gray-500 tracking-wider">
                 SIZE
               </span>
-              <div className="flex gap-1 bg-[#F4F4F5] p-1 rounded-xl">
+              <div className="flex gap-1 bg-gray-100/80 p-1 rounded-xl">
                 {(
                   [
                     { label: "Micro (16px)", val: "micro" },
@@ -130,8 +130,8 @@ export function IconExplorer() {
                     onClick={() => setSelectedSize(sz.val)}
                     className={`px-3.5 py-1 rounded-lg text-xs font-extrabold transition-all border-2 ${
                       selectedSize === sz.val
-                        ? "bg-[#FDE047] text-black border-black shadow-2xs"
-                        : "border-transparent text-gray-700 hover:text-black"
+                        ? "bg-[#FEF08A] text-black border-black shadow-2xs"
+                        : "border-transparent text-gray-600 hover:text-black"
                     }`}
                   >
                     {sz.label}
