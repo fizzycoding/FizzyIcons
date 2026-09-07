@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import { Check } from "@fizzyicons/react";
 
 export function Frameworks() {
   const [activeTab, setActiveTab] = useState<"react" | "react-native" | "vue" | "svg">("react");
@@ -61,36 +60,37 @@ import { HomeIcon, HeartIcon } from '@fizzyicons/vue';
   return (
     <section id="docs" className="py-20 bg-brand-bg border-b border-brand-border/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           
           {/* Left info column */}
           <div className="lg:col-span-5">
-            <div className="inline-flex items-center gap-1.5 px-3.5 py-1 bg-white border border-brand-border/20 rounded-full text-xs font-bold text-brand-dark mb-4 shadow-sm">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-white border border-brand-border/15 rounded-full text-xs font-semibold text-brand-dark mb-4 shadow-sm">
               <span>Multi-Framework Ready</span>
             </div>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight leading-tight">
-              One icon engine.<br />Every modern framework.
+            <h2 className="text-3xl sm:text-4xl font-bold text-brand-dark tracking-tight leading-tight">
+              Seamless Integration. <br />
+              Ready for Your Stack.
             </h2>
-            <p className="mt-4 text-base sm:text-lg text-brand-dark/70 font-medium leading-relaxed">
-              Master SVGs generated into native packages. Zero bloat, fully tree-shakeable, and TypeScript native out of the box.
+            <p className="mt-3 text-base sm:text-lg text-brand-gray font-normal leading-relaxed">
+              Import cleanly typed icon components directly into React, React Native, Vue, or export raw optimized SVGs.
             </p>
 
             {/* Framework Features */}
-            <div className="mt-8 space-y-4 font-semibold text-sm">
+            <div className="mt-6 space-y-3.5 font-medium text-sm text-brand-dark">
               <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-xl bg-brand-yellow border-2 border-brand-border flex items-center justify-center font-bold">
+                <div className="w-5 h-5 rounded-full bg-brand-yellow/50 border border-brand-border/30 flex items-center justify-center text-[10px] font-bold text-brand-dark flex-shrink-0">
                   ✓
                 </div>
                 <span>React & Next.js App Router compatible</span>
               </div>
               <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-xl bg-brand-yellow border-2 border-brand-border flex items-center justify-center font-bold">
+                <div className="w-5 h-5 rounded-full bg-brand-yellow/50 border border-brand-border/30 flex items-center justify-center text-[10px] font-bold text-brand-dark flex-shrink-0">
                   ✓
                 </div>
                 <span>React Native SVG support</span>
               </div>
               <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-xl bg-brand-yellow border-2 border-brand-border flex items-center justify-center font-bold">
+                <div className="w-5 h-5 rounded-full bg-brand-yellow/50 border border-brand-border/30 flex items-center justify-center text-[10px] font-bold text-brand-dark flex-shrink-0">
                   ✓
                 </div>
                 <span>3 Compulsory styles (Outline, Solid, Colored)</span>
@@ -100,37 +100,38 @@ import { HomeIcon, HeartIcon } from '@fizzyicons/vue';
 
           {/* Right Code Tab Container */}
           <div className="lg:col-span-7">
-            <div className="bg-[#141416] border-2 border-brand-border rounded-3xl overflow-hidden shadow-brutal-xl">
+            <div className="bg-[#141416] border border-brand-border/20 rounded-2xl overflow-hidden shadow-sm">
               
               {/* Header Tabs */}
-              <div className="flex items-center justify-between px-4 pt-3 bg-neutral-900 border-b border-neutral-800">
-                <div className="flex items-center gap-1 overflow-x-auto">
+              <div className="flex items-center justify-between px-4 py-2.5 bg-neutral-900/90 border-b border-neutral-800">
+                <div className="flex items-center gap-1.5 overflow-x-auto">
                   {(
                     [
-                      { id: "react", label: "React", icon: "⚛" },
-                      { id: "react-native", label: "React Native", icon: "📱" },
-                      { id: "vue", label: "Vue", icon: "🟢" },
-                      { id: "svg", label: "SVG Raw", icon: "📄" },
+                      { id: "react", label: "React" },
+                      { id: "react-native", label: "React Native" },
+                      { id: "vue", label: "Vue" },
+                      { id: "svg", label: "SVG Raw" },
                     ] as const
                   ).map((tab) => (
                     <button
                       key={tab.id}
+                      type="button"
                       onClick={() => setActiveTab(tab.id)}
-                      className={`flex items-center gap-2 px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-bold transition-colors ${
+                      className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                         activeTab === tab.id
-                          ? "bg-[#141416] text-brand-yellow border-t-2 border-x border-neutral-800"
-                          : "text-neutral-400 hover:text-white"
+                          ? "bg-brand-yellow text-brand-dark border border-brand-border/40"
+                          : "text-neutral-400 hover:text-white border border-transparent"
                       }`}
                     >
-                      <span>{tab.icon}</span>
-                      <span>{tab.label}</span>
+                      {tab.label}
                     </button>
                   ))}
                 </div>
 
                 <button
+                  type="button"
                   onClick={handleCopy}
-                  className="p-2 text-neutral-400 hover:text-white transition-colors flex items-center gap-1.5 text-xs font-semibold"
+                  className="px-3 py-1.5 text-neutral-400 hover:text-white transition-colors flex items-center gap-1.5 text-xs font-semibold rounded-lg hover:bg-neutral-800"
                 >
                   {copied ? (
                     <span className="text-emerald-400 font-bold">Copied!</span>
@@ -141,7 +142,7 @@ import { HomeIcon, HeartIcon } from '@fizzyicons/vue';
               </div>
 
               {/* Code Snippet Box */}
-              <div className="p-6 overflow-x-auto text-xs sm:text-sm font-mono text-neutral-200 leading-relaxed">
+              <div className="p-5 overflow-x-auto text-xs sm:text-sm font-mono text-neutral-200 leading-relaxed bg-[#141416]">
                 <pre>{snippets[activeTab]}</pre>
               </div>
             </div>
@@ -152,3 +153,4 @@ import { HomeIcon, HeartIcon } from '@fizzyicons/vue';
     </section>
   );
 }
+

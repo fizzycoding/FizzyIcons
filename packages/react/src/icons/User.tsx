@@ -30,7 +30,7 @@ export function User({
     if (variant === "colored") {
       return (
         <g>
-          <path d="M4 20c0-3.31 3.58-6 8-6s8 2.69 8 6v1H4v-1z" fill={getColor(1, "#F43F5E")}/><circle cx="12" cy="8" r="4.5" fill={getColor(2, "#FFDE59")} stroke="#18181B" stroke-width="1.5"/>
+          <path d="M4 20c0-3.31 3.58-6 8-6s8 2.69 8 6v1H4v-1z" fill={getColor(1, "#F43F5E")}/><circle cx="12" cy="8" r="4.5" fill={getColor(2, "#FFDE59")} stroke="#18181B" strokeWidth="1.5"/>
         </g>
       );
     }

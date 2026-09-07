@@ -30,7 +30,7 @@ export function Search({
     if (variant === "colored") {
       return (
         <g>
-          <circle cx="11" cy="11" r="7" fill={getColor(1, "#60A5FA")} stroke={getColor(2, "#18181B")} stroke-width="2"/><path d="M16 16l4.5 4.5" stroke={getColor(2, "#18181B")} stroke-width="3" stroke-linecap="round"/>
+          <circle cx="11" cy="11" r="7" fill={getColor(1, "#60A5FA")} stroke={getColor(2, "#18181B")} strokeWidth="2"/><path d="M16 16l4.5 4.5" stroke={getColor(2, "#18181B")} strokeWidth="3" strokeLinecap="round"/>
         </g>
       );
     }

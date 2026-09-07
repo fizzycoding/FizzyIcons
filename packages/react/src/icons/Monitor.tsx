@@ -30,7 +30,7 @@ export function Monitor({
     if (variant === "colored") {
       return (
         <g>
-          <rect x="2" y="3" width="20" height="14" rx="2" fill={getColor(1, "#0EA5E9")}/><path d="M8 21h8m-4-4v4" stroke={getColor(2, "#18181B")} stroke-width="2.5" stroke-linecap="round"/>
+          <rect x="2" y="3" width="20" height="14" rx="2" fill={getColor(1, "#0EA5E9")}/><path d="M8 21h8m-4-4v4" stroke={getColor(2, "#18181B")} strokeWidth="2.5" strokeLinecap="round"/>
         </g>
       );
     }

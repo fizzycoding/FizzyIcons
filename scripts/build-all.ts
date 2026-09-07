@@ -31,7 +31,19 @@ function cleanSvgInner(svgContent: string): string {
   // Extract inner SVG elements (paths, circles, rects, lines, etc.)
   const innerMatch = svgContent.match(/<svg[^>]*>([\s\S]*?)<\/svg>/i);
   if (!innerMatch) return "";
-  return innerMatch[1].trim();
+  let inner = innerMatch[1].trim();
+
+  // Convert SVG kebab-case attributes to JSX camelCase
+  inner = inner
+    .replace(/stroke-width=/g, "strokeWidth=")
+    .replace(/stroke-linecap=/g, "strokeLinecap=")
+    .replace(/stroke-linejoin=/g, "strokeLinejoin=")
+    .replace(/stroke-miterlimit=/g, "strokeMiterlimit=")
+    .replace(/fill-rule=/g, "fillRule=")
+    .replace(/clip-rule=/g, "clipRule=")
+    .replace(/clip-path=/g, "clipPath=");
+
+  return inner;
 }
 
 function processColoredSvgJsx(svgInner: string): string {

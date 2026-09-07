@@ -30,7 +30,7 @@ export function Zap({
     if (variant === "colored") {
       return (
         <g>
-          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" fill={getColor(1, "#FBBF24")} stroke={getColor(2, "#D97706")} stroke-width="1.5"/>
+          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" fill={getColor(1, "#FBBF24")} stroke={getColor(2, "#D97706")} strokeWidth="1.5"/>
         </g>
       );
     }

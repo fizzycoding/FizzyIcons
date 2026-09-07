@@ -30,7 +30,7 @@ export function Code({
     if (variant === "colored") {
       return (
         <g>
-          <path d="M8 6L2 12l6 6" stroke={getColor(1, "#EC4899")} stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 6l6 6-6 6" stroke={getColor(2, "#8B5CF6")} stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M8 6L2 12l6 6" stroke={getColor(1, "#EC4899")} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/><path d="M16 6l6 6-6 6" stroke={getColor(2, "#8B5CF6")} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
         </g>
       );
     }

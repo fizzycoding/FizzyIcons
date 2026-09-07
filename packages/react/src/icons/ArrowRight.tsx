@@ -30,7 +30,7 @@ export function ArrowRight({
     if (variant === "colored") {
       return (
         <g>
-          <path d="M5 12h14m-7-7l7 7-7 7" stroke={getColor(1, "#18181B")} stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M5 12h14m-7-7l7 7-7 7" stroke={getColor(1, "#18181B")} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
         </g>
       );
     }
